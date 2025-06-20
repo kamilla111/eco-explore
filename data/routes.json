@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Тропа Зелёного Утеса",
+    "difficulty": "easy",
+    "description": "Лёгкий 5-километровый маршрут вдоль реки через берёзовые леса. Идеально подходит для семейного отдыха.",
+    "image": "https://images.unsplash.com/photo-1476231682828-37e571bc172f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "name": "Каньон Орлиного Гнезда",
+    "difficulty": "medium",
+    "description": "12-километровый маршрут через живописный каньон с панорамными видами. Включает подъёмы средней сложности.",
+    "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "name": "Перевал Ветров",
+    "difficulty": "hard",
+    "description": "Сложный 20-километровый горный маршрут для опытных путешественников. Требуется специальное снаряжение.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "name": "Озеро Хрустальное",
+    "difficulty": "easy",
+    "description": "Несложный 8-километровый маршрут вокруг живописного горного озера с местами для пикника.",
+    "image": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "name": "Тайга Северная",
+    "difficulty": "medium",
+    "description": "15-километровый маршрут через густой хвойный лес с возможностью наблюдения за дикими животными.",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "name": "Вулкан Спящий",
+    "difficulty": "hard",
+    "description": "Экстремальный маршрут на вершину потухшего вулкана. 25 км с набором высоты 1800 метров.",
+    "image": "https://images.unsplash.com/photo-1501612780327-45045538702b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "name": "Долина Рододендронов",
+    "difficulty": "easy",
+    "description": "Лёгкий 6-километровый маршрут по цветущей долине с экскурсионным сопровождением.",
+    "image": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "name": "Скалы Дракона",
+    "difficulty": "medium",
+    "description": "10-километровый маршрут по скалистой местности с элементами скалолазания.",
+    "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "name": "Ледник Вечный",
+    "difficulty": "hard",
+    "description": "Сложный 30-километровый маршрут по леднику с ночёвкой в горах. Только для подготовленных групп.",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+  }
+]

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoExplore - Поиск эко-маршрутов</title>
+  <meta name="description" content="Платформа для поиска и бронирования экологических маршрутов по России">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">EcoExplore</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#routes">Маршруты</a></li>
+          <li><a href="#about">О проекте</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Открой для себя удивительные эко-маршруты России</h2>
+        <p>Более 50 уникальных маршрутов для всех уровней подготовки</p>
+        <form id="search-form" class="search-form">
+          <div class="search-group">
+            <input type="text" placeholder="Поиск по названию..." id="search-input" />
+            <button type="submit">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <select id="difficulty-filter">
+            <option value="">Все уровни</option>
+            <option value="easy">Лёгкий</option>
+            <option value="medium">Средний</option>
+            <option value="hard">Сложный</option>
+          </select>
+        </form>
+      </div>
+    </section>
+
+    <section id="routes" class="routes">
+      <div class="container">
+        <h3>Популярные маршруты</h3>
+        <div id="route-list" class="route-grid"></div>
+      </div>
+    </section>
+
+   <section id="about" class="about">
+    <div class="container">
+      <h3>О проекте</h3>
+      <div class="about-content">
+        <p>EcoExplore — это инновационная платформа для поиска и бронирования экологических маршрутов по России. Мы объединяем любителей природы и активного отдыха с лучшими маршрутами страны.</p>
+        <div class="features">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M12 2L4 7l8 5 8-5-8-5z"></path>
+                <path d="M4 12l8 5 8-5"></path>
+                <path d="M4 17l8 5 8-5"></path>
+              </svg>
+            </div>
+            <h4>Разнообразие</h4>
+            <p>Более 50 маршрутов в разных регионах</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <h4>Поддержка</h4>
+            <p>Круглосуточная помощь гидов</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h4>Сообщество</h4>
+            <p>Присоединяйтесь к 10,000+ путешественников</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h4>Безопасность</h4>
+            <p>Все маршруты проверены экспертами</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section id="contact" class="contact">
+      <div class="container">
+        <h3>Связаться с нами</h3>
+        <form id="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Имя" required />
+            <input type="email" placeholder="Email" required />
+          </div>
+          <textarea placeholder="Сообщение" required></textarea>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>EcoExplore</h4>
+          <p>Откройте для себя красоту природы России</p>
+        </div>
+        <div class="footer-section">
+          <h4>Навигация</h4>
+          <ul>
+            <li><a href="#routes">Маршруты</a></li>
+            <li><a href="#about">О проекте</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Контакты</h4>
+          <p>info@ecoexplore.ru</p>
+          <p>+7 (800) 123-45-67</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 EcoExplore. Все права защищены.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
