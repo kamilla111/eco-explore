@@ -32,6 +32,6 @@
 ## 📦 Демо
 👉 [Ссылка на демо](https://drive.google.com/file/d/1BN4jxFDPYBQOd6fXLhJTjTHFHudIOePr/view?usp=sharing)
 
-🔗 [Посмотреть на GitHub Pages](https://kamilla111/eco-explore)
+🔗 [Посмотреть на GitHub Pages](https://github.com/kamilla111/eco-explore)
 =======
 
